@@ -190,7 +190,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   color: #060a24;
 }
 
-#cover-page h1 {
+#cover-page h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -201,11 +201,11 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   line-height: 42px;
 }
 
-#cover-page h1 span {
+#cover-page h2 span {
   text-decoration: line-through;
 }
 
-#cover-page h1 #dot {
+#cover-page h2 #dot {
   color: inherit;
   text-decoration: none;
 }
@@ -269,14 +269,14 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
     height: -moz-fit-content;
     height: fit-content;
   }
-  #cover-page h1 {
+  #cover-page h2 {
     font-size: 64px;
     font-weight: 400;
     margin-left: 12%;
     margin-right: 0;
     margin-top: 11%;
   }
-  #cover-page h1 #dot {
+  #cover-page h2 #dot {
     color: #0000ec;
     text-decoration: none;
   }
@@ -318,7 +318,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   padding-bottom: 120px;
 }
 
-#podcasts h1 {
+#podcasts h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 300;
@@ -361,7 +361,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
     margin-top: 70px;
     padding-bottom: 15%;
   }
-  #podcasts h1 {
+  #podcasts h2 {
     font-size: 48px;
     margin-left: 12%;
     margin-bottom: 0;
@@ -382,7 +382,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
 }
 
 /***** MOBILE VERSION ******/
-aside {
+#aside-square {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,7 +395,7 @@ aside {
   z-index: 5;
 }
 
-aside #phone-photo {
+#aside-square #phone-photo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,18 +406,18 @@ aside #phone-photo {
   height: 519px;
 }
 
-aside #phone-photo img {
+#aside-square #phone-photo img {
   width: 320px;
   height: 100%;
 }
 
-aside article {
+#aside-square #article-sect {
   width: 90%;
   margin: 20px auto;
   margin-bottom: 0;
 }
 
-aside article h2 {
+#aside-square #article-sect h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -426,7 +426,7 @@ aside article h2 {
   line-height: 42px;
 }
 
-aside article p {
+#aside-square #article-sect p {
   font-size: 14px;
   font-weight: 400;
   color: #060a24;
@@ -441,27 +441,27 @@ aside article p {
 /*****  ******/
 /***** DESKTOP VERSION ******/
 @media screen and (min-width: 837px) {
-  aside {
+  #aside-square {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     margin-top: -6.5%;
   }
-  aside #phone-photo {
+  #aside-square #phone-photo {
     width: 88%;
     height: 660px;
   }
-  aside #phone-photo img {
+  #aside-square #phone-photo img {
     width: auto;
     margin-left: 19%;
   }
-  aside article h2 {
+  #aside-square #article-sect h2 {
     font-size: 48px;
     margin-top: 25%;
     margin-bottom: 5%;
   }
-  aside article p {
+  #aside-square #article-sect p {
     font-size: 16px;
     width: 64%;
     line-height: 24px;
@@ -469,7 +469,7 @@ aside article p {
 }
 
 /***** MOBILE VERSION ******/
-#gallery h1 {
+#gallery h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -504,7 +504,7 @@ aside article p {
 /*****  ******/
 /***** DESKTOP VERSION ******/
 @media screen and (min-width: 837px) {
-  #gallery h1 {
+  #gallery h2 {
     font-size: 48px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -530,7 +530,7 @@ aside article p {
           flex-direction: column;
 }
 
-#topics h1 {
+#topics h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -553,7 +553,7 @@ aside article p {
           flex-direction: column;
 }
 
-#topics #topics-icons figure {
+#topics #topics-icons div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,7 +567,7 @@ aside article p {
   margin-top: 65px;
 }
 
-#topics #topics-icons figure p {
+#topics #topics-icons div p {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -583,7 +583,7 @@ aside article p {
 /*****  ******/
 /***** DESKTOP VERSION ******/
 @media screen and (min-width: 837px) {
-  #topics h1 {
+  #topics h2 {
     font-size: 48px;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -603,12 +603,12 @@ aside article p {
             justify-content: center;
     margin: 0px;
   }
-  #topics #topics-icons figure {
+  #topics #topics-icons div {
     width: 260px;
     height: 130px;
     margin: 0px;
   }
-  #topics #topics-icons figure p {
+  #topics #topics-icons div p {
     margin-top: 30px;
     text-align: center;
     width: 90%;
