@@ -35,11 +35,15 @@
       margin-top: -47px;
     }
 
-    button {
+    a {
+      text-decoration: none;
+
       width: 288px;
       height: 48px;
 
       margin-top: 40px;
+
+      padding-top: 10px;
 
       font-family: inherit;
       font-size: 16px;
@@ -63,11 +67,6 @@
         color: #ffffff;
 
         transition: all 0.5s ease-out;
-      }
-
-      a {
-        text-decoration: none;
-        color: inherit;
       }
     }
   }
@@ -98,10 +97,12 @@
         margin-top: -70px;
       }
 
-      button {
+      a {
         font-size: 18px;
 
         margin-top: 50px;
+
+        padding-top: 16px;
 
         width: 345px;
         height: 56px;

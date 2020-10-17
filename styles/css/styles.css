@@ -190,7 +190,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   color: #060a24;
 }
 
-#cover-page h2 {
+#cover-page h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -201,11 +201,11 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   line-height: 42px;
 }
 
-#cover-page h2 span {
+#cover-page h1 span {
   text-decoration: line-through;
 }
 
-#cover-page h2 #dot {
+#cover-page h1 #dot {
   color: inherit;
   text-decoration: none;
 }
@@ -225,13 +225,14 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   display: none;
 }
 
-#cover-page button {
+#cover-page a {
+  text-decoration: none;
   display: block;
   width: 288px;
   height: 41px;
   margin: 12% auto;
   margin-bottom: 0;
-  padding-top: 1px;
+  padding-top: 10px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 600;
@@ -245,12 +246,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   outline: inherit;
 }
 
-#cover-page button a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#cover-page button:hover {
+#cover-page a:hover {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
@@ -269,14 +265,14 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
     height: -moz-fit-content;
     height: fit-content;
   }
-  #cover-page h2 {
+  #cover-page h1 {
     font-size: 64px;
     font-weight: 400;
     margin-left: 12%;
     margin-right: 0;
     margin-top: 11%;
   }
-  #cover-page h2 #dot {
+  #cover-page h1 #dot {
     color: #0000ec;
     text-decoration: none;
   }
@@ -294,7 +290,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   #cover-page #forDesktop {
     display: block;
   }
-  #cover-page button {
+  #cover-page a {
     display: block;
     font-size: 18px;
     font-weight: 600;
@@ -303,6 +299,7 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
     margin-left: 12%;
     margin-top: 3rem;
     margin-bottom: 0;
+    padding-top: 16px;
   }
 }
 
@@ -658,10 +655,12 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
   margin-top: -47px;
 }
 
-#novelty-section div button {
+#novelty-section div a {
+  text-decoration: none;
   width: 288px;
   height: 48px;
   margin-top: 40px;
+  padding-top: 10px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 600;
@@ -677,16 +676,11 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
           transform: skew(0deg, 6deg);
 }
 
-#novelty-section div button:hover {
+#novelty-section div a:hover {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-
-#novelty-section div button a {
-  text-decoration: none;
-  color: inherit;
 }
 
 /*****  ******/
@@ -708,9 +702,10 @@ header .burguer-btn:checked ~ .burguer-icon .burguer-nav-icon:after {
     font-size: 48px;
     margin-top: -70px;
   }
-  #novelty-section div button {
+  #novelty-section div a {
     font-size: 18px;
     margin-top: 50px;
+    padding-top: 16px;
     width: 345px;
     height: 56px;
     line-height: 24px;

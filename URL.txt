@@ -2,10 +2,6 @@
 
 	- AWS
 	  
-	  http://podcastchido.tk/
+	  http://podcastchido.tk.s3-website-us-east-1.amazonaws.com
 
-
-	- Cloud Foundry (IBM Cloud Platform)
-
-	  https://simple-toolchain-podcastjabv.mybluemix.net/
 
